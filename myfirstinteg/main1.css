@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont-webfont.eot');
+    src: url('roboto-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-regular-webfont-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont-webfont.woff') format('woff'),
+         url('roboto-regular-webfont-webfont.ttf') format('truetype'),
+         url('roboto-regular-webfont-webfont.svg#robotoregular') format('svg');
+}
+
+footer {
+  width:100%;
+}
+.page-header {
+  top:5%;
+  left:35%;
+}
+.row{
+  top:20%;
+  left:4%;
+}
+/*.sectioncontainer{
+  background-image: url(../images/fond-journal.jpg);
+}
+/*--fin footer --*/
+
+/*
+si on ne met pas de position, les bloques enfants ne se positionneront <br> pas par rapport à leur parent mais par rapport à la page, par défaut ils sont en position absolute
+*/
+
+.carousel-item img{
+  width:100%;
+  height: 50vh;
+  object-fit: cover;
+  }
+
+.rupture {
+  height:3px;
+  width:10%;
+  border:none;
+  box-shadow:none;
+  background-color:grey;
+
+}
+
+.thumbnail img{
+  width:100%;
+  height:40vh;
+}
+
+h2, h3 {
+  text-align: center;
+}
+.imgmenu3 img{
+  width:100%;
+  height:25vh;
+  object-fit: cover;
+}
+a{
+  text-decoration: none;
+  color: normal;
+}
