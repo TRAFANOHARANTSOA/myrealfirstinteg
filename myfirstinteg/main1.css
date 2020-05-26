@@ -1,62 +1,154 @@
 @font-face {
-    font-family: 'robotoregular';
-    src: url('roboto-regular-webfont-webfont.eot');
-    src: url('roboto-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
-         url('roboto-regular-webfont-webfont.woff2') format('woff2'),
-         url('roboto-regular-webfont-webfont.woff') format('woff'),
-         url('roboto-regular-webfont-webfont.ttf') format('truetype'),
-         url('roboto-regular-webfont-webfont.svg#robotoregular') format('svg');
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.eot');
+    src: url('lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-regular-webfont.woff2') format('woff2'),
+         url('lato-regular-webfont.woff') format('woff'),
+         url('lato-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+
+html, body{
+  font-family: 'latoregular', arial, sans-serif!important;
+  color:#550000!important;
+}
+
+
+/*pied de page*/
 footer {
   width:100%;
 }
+/*fin de page*/
+
+/*titre des pages*/
 .page-header {
   top:5%;
   left:35%;
 }
-.row{
-  top:20%;
-  left:4%;
-}
-/*.sectioncontainer{
-  background-image: url(../images/fond-journal.jpg);
-}
-/*--fin footer --*/
+/* fin titre des pages*/
 
-/*
-si on ne met pas de position, les bloques enfants ne se positionneront <br> pas par rapport à leur parent mais par rapport à la page, par défaut ils sont en position absolute
-*/
 
-.carousel-item img{
+/*barre de navigation*/
+li.nav-item{
+  display:inline;
+  text-align: center;
+  width:20%;
+  color:#915f00!important;
+}
+/*fin barre de navigation*/
+
+
+/*carousel*/
+#carousel{
+  width:90%;
+  position:relative;
+  margin:auto;
+  border: 1vh solid white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.carouselimg img{
   width:100%;
   height: 50vh;
   object-fit: cover;
   }
 
+/*fin carousel note : si on ne met pas de position, les bloques enfants ne se positionneront <br> pas par rapport à leur parent mais par rapport à la page, par défaut ils sont en position absolute*/
+
+/*changement de thème*/
 .rupture {
-  height:3px;
+  height:5px;
   width:10%;
   border:none;
   box-shadow:none;
   background-color:grey;
+  transition:0.5s;
 
+  }
+.rupture:hover{
+  transform: scaleX(2);
 }
+/*fin changement de thème*/
 
+/* MENU 2*/
 .thumbnail img{
   width:100%;
-  height:40vh;
+  height:30vh;
 }
+/*fin MENU 2*/
 
-h2, h3 {
-  text-align: center;
-}
+/*liens et images*/
+a {
+  text-decoration:none!important;
+  color: none!important;
+  transition:0.5s;
+  }
+a:hover {
+  transform: scale(1.5);
+  }
+img {
+  transition:0.5s;
+  }
+img:hover {
+  transform: scale(1.10);
+  }
 .imgmenu3 img{
   width:100%;
   height:25vh;
   object-fit: cover;
+  }
+
+  .links{
+  color:#550000!important;
+  }
+  /*liens et images*/
+
+
+  /*les titres*/
+h2, h3 {
+  text-align: center;
 }
-a{
-  text-decoration: none;
-  color: normal;
+  /*fin des titres*/
+
+
+  /*les icones*/
+.fas {
+  display:block!important;
+  font-size:25px;
+  margin-top:-10px;
+  text-align:center;
+  color:#d45244;
+  transition:0.5s;
 }
+
+.fas:hover {
+  transform: scale(1.5);
+}
+  /*fin des icones*/
+
+    /*MEDIA*/
+@media screen and (max-width: 767.5px){
+#menu1{
+  display:none;
+}
+#menu2{
+  display:none;
+}
+#menu3{
+  display:none;
+}
+}
+@media screen and (min-width:767.5px){
+#carouselresponsive1 {
+  display:none;
+}
+#carouselresponsive2 {
+  display:none;
+}
+#carouselresponsive3{
+  display:none;
+}
+}
+  /*MEDIA*/

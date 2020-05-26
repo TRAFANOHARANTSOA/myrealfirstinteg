@@ -10,21 +10,21 @@
                       </div>
 
                       <form >
-                        <div class="form-group">
-                              <label for="message"> Nom  </label>
-                              <input type="text" class="form-control" name="nom" placeholder="Nom" >
+                        <div class="form-group text-light">
+                              <label for="message "> Nom  </label>
+                              <input type="text text-light" class="form-control" name="nom" placeholder="Nom" >
                         </div>
-                        <div class="form-group">
+                        <div class="form-group text-light">
                               <label for="message"> Sujet </label>
-                              <input type="text" class="form-control" name="nom" placeholder="Sujet" >
+                              <input type="text text-light" class="form-control" name="nom" placeholder="Sujet" >
                         </div>
-                        <div class="form-group">
+                        <div class="form-group text-light">
                               <label for="message"> Adresse email </label>
-                              <input type="email" class="form-control" name="nom" placeholder="name@example.com" > <br>
+                              <input type="email text-light" class="form-control" name="nom" placeholder="name@example.com" > <br>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group text-light">
                                 <label for="exampleFormControlTextarea1">Ecrivez votre message en dessous</label>
-                                <textarea class="form-control" id="message" rows="3"></textarea>
+                                <textarea class="form-control " id="message" rows="3"></textarea>
                         </div>
 
                               <input type="submit" name="submit"value="envoyer">
