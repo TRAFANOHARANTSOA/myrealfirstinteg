@@ -43,11 +43,11 @@
 
       <section id="accueil">
                 <div class="container bg-light shadow shadow-md pt-2 pb-4 ">
-                  <div class="page-header text-center ">
-                    <h1>MON PROJET</h1>
-                    <p>Ambitioni dedisse scripsisse iudicaretur.</p>
-                    <hr class="rupture">
-                  </div>
+                    <div class="page-header text-center ">
+                      <h1>MON PROJET</h1>
+                      <p>Ambitioni dedisse scripsisse iudicaretur.</p>
+                      <hr class="rupture">
+                    </div>
                     <div id="carousel" class="carousel slide" data-interval="2000" data-ride="carousel" >
                         <ol class="carousel-indicators">
                           <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -142,10 +142,9 @@
                       <p >Ambitioni dedisse scripsisse iudicaretur.</p>
                       <hr class="rupture">
                     </div>
-                      <div id="carouselresponsivecarousel" class="carousel slide" data-interval="4000" data-ride="carousel" >
-
-                          <div class="carousel-inner">
-                            <div class="carousel-item active ">
+                    <div id="carouselresponsivecarousel" class="carousel slide" data-interval="4000" data-ride="carousel" >
+                        <div class="carousel-inner">
+                          <div class="carousel-item active ">
                               <div class="col ">
                                 <a class="foodicone" href="#"> <img src="../images/pasta.jpg" class="img-fluid d-block mx-auto" alt="pasta"> </a>
                                 <h2 class="texte-center"> TITRE1 </h2>
@@ -154,7 +153,7 @@
                                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                               </div>
                           </div>
-                            <div class="carousel-item">
+                          <div class="carousel-item">
                               <div class="col">
                                 <a class="foodicone" href="#"> <img src="../images/pasta.jpg" class="img-fluid d-block mx-auto" alt="pasta"> </a>
                                 <h2 class="texte-center"> TITRE2 </h2>
@@ -162,8 +161,8 @@
                                 <hr class="rupture">
                                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                               </div>
-                            </div>
-                            <div class="carousel-item">
+                          </div>
+                          <div class="carousel-item">
                               <div class="col">
                                 <a class="foodicone" href="#"> <img src="../images/pasta.jpg" class="img-fluid d-block mx-auto" alt="pasta"> </a>
                                 <h2 class="texte-center"> TITRE3 </h2>
@@ -212,9 +211,9 @@
                                   <img src="../images/zach.jpg" alt="route" class="img-fluid" style="width:100%">
                                   <i class="fas fa-film position-relative"></i>
                                 </a>
-                                <div class="caption">
+                              <div class="caption">
                                   <p class="text-uppercase text-center ">Lorem ipsum...</p>
-                                </div>
+                              </div>
                               <!--<div class="iconequibougeaupointeur"> </div< -->
                               </div>
                             </div>
@@ -313,9 +312,6 @@
                       </div>
       </section>
 
-
-
-
       <section id="carouselresponsive2">
                     <div class="container bg-light shadow shadow-md pt-2 pb-4 ">
                       <div class="page-header text-center  ">
@@ -323,10 +319,8 @@
                         <p >Ambitioni dedisse scripsisse iudicaretur.</p>
                         <hr class="rupture">
                       </div>
-                        <div id="carouselmenu2" class="carousel slide" data-interval="3000" data-ride="carousel" >
-
-                            <div class="carousel-inner">
-
+                      <div id="carouselmenu2" class="carousel slide" data-interval="3000" data-ride="carousel" >
+                          <div class="carousel-inner">
                               <div class="carousel-item active ">
                                 <div class="col bg-white shadow-sm">
                                   <div class="thumbnail d-block position-relative">
@@ -439,7 +433,7 @@
                                   </div>
                                 </div>
                               </div>
-                            </div>
+                          </div>
                             <a class="carousel-control-prev" href="#carouselmenu2" role="button" data-slide="prev">
                               <span class="carousel-control-prev-icon " aria-hidden="true"></span>
                               <span class="sr-only ">Previous</span>
@@ -448,8 +442,8 @@
                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
                               <span class="sr-only">Next</span>
                             </a>
-                          </div>
                         </div>
+                      </div>
 
         </section>
 
@@ -463,106 +457,97 @@
                             <p>Ambitioni dedisse scripsisse iudicaretur.</p>
                             <hr class="rupture">
                           </div>
-
-                          <div class="row justify-content-center align-items-center">
-                              <div class="col-md-5  imgmenu3">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-5  imgmenu3">
                                   <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid  " alt="route"/></a>
-                              </div>
-                              <div class="col-md-5  ">
-                                      <h1 class="text-left"> TITRE1 </h1>
-                                      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
-                              </div>
-                          </div>
-                          <div class="row justify-content-center align-items-center mt-5 ">
-                              <div class="col-md-5 imgmenu3">
-                                  <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid " alt="route"/></a>
-                              </div>
-                              <div class="col-md-5 ">
-                                      <h1 class="text-left"> TITRE1 </h1>
-                                      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
-                              </div>
-                          </div>
-                          <div class="row justify-content-center align-items-center mt-5 ">
-                              <div class="col-md-5 imgmenu3 ">
-                                  <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid  " alt="route"/></a>
-                              </div>
-                              <div class="col-md-5">
-                                      <h1 class="text-left"> TITRE1 </h1>
-                                      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
-                              </div>
-                          </div>
-
-                              <div class="col">
-                                <div class="textpresentationcontainer2">
-                                  <a class="nav-link text-center mt-5 links" href="#"> LIEN POUR TOUT VOIR </a>
                                 </div>
-                              </div>
+                                <div class="col-md-5  ">
+                                      <h1 class="text-left"> TITRE1 </h1>
+                                      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5 ">
+                                <div class="col-md-5 imgmenu3">
+                                  <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid " alt="route"/></a>
+                                </div>
+                                <div class="col-md-5 ">
+                                      <h1 class="text-left"> TITRE1 </h1>
+                                      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5 ">
+                                <div class="col-md-5 imgmenu3 ">
+                                  <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid  " alt="route"/></a>
+                                </div>
+                                <div class="col-md-5">
+                                      <h1 class="text-left"> TITRE1 </h1>
+                                      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
+                                </div>
+                            </div>
+
+                                  <div class="col">
+                                    <div class="textpresentationcontainer2">
+                                      <a class="nav-link text-center mt-5 links" href="#"> LIEN POUR TOUT VOIR </a>
+                                    </div>
+                                  </div>
                           </div>
 
       </section >
 
       <section id="carouselresponsive3">
-                <div class="container bg-light shadow shadow-md pt-2 pb-4 mt-4 ">
-                  <div class="page-header text-center ">
-                    <h1>MENU 3</h1>
-                    <p>Ambitioni dedisse scripsisse iudicaretur.</p>
-                    <hr class="rupture">
-                  </div>
-                    <div id="carouselmenu3" class="carousel slide" data-interval="2000" data-ride="carousel" >
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselmenu3" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselmenu3" data-slide-to="1"></li>
-                          <li data-target="#carouselmenu3" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active ">
-
-                                <div class="col-md-5   ">
-                                    <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid d-block " alt="route"/></a>
+                          <div class="container bg-light shadow shadow-md pt-2 pb-4 mt-4 ">
+                            <div class="page-header text-center ">
+                              <h1>MENU 3</h1>
+                              <p>Ambitioni dedisse scripsisse iudicaretur.</p>
+                              <hr class="rupture">
+                            </div>
+                            <div id="carouselmenu3" class="carousel slide" data-interval="2000" data-ride="carousel" >
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#carouselmenu3" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselmenu3" data-slide-to="1"></li>
+                                    <li data-target="#carouselmenu3" data-slide-to="2"></li>
+                                  </ol>
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active ">
+                                        <div class="col-md-5   ">
+                                              <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid d-block " alt="route"/></a>
+                                        </div>
+                                        <div class="col-md-5 ">
+                                              <h1 class="text-left"> TITRE1 </h1>
+                                              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <div class="col-md-5  ">
+                                              <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid d-block " alt="route"/></a>
+                                          </div>
+                                          <div class="col-md-5">
+                                                <h1 class="text-left"> TITRE1 </h1>
+                                                <p class="text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
+                                          </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <div class="col-md-5 d- ">
+                                              <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid d-block " alt="route"/></a>
+                                          </div>
+                                          <div class="col-md-5 ">
+                                                <h1 class="text-left"> TITRE1 </h1>
+                                                <p class="text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
+                                          </div>
+                                  </div>
+                                      <a class="carousel-control-prev" href="#carouselmenu3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                      <a class="carousel-control-next" href="#carouselmenu3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
                                 </div>
-                                <div class="col-md-5 ">
-                                        <h1 class="text-left"> TITRE1 </h1>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
-                                </div>
-
+                                      <p class="text-center text-uppercase mt-4 mb-4">Lorem ipsum dolor sit amet</p>
+                            </div>
                           </div>
-
-                          <div class="carousel-item">
-
-                                <div class="col-md-5  ">
-                                    <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid d-block " alt="route"/></a>
-                                </div>
-                                <div class="col-md-5">
-                                        <h1 class="text-left"> TITRE1 </h1>
-                                        <p class="text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
-                                </div>
-
-                          </div>
-
-                          <div class="carousel-item">
-
-                                <div class="col-md-5 d- ">
-                                    <a class="imagezach" href="#"><img src="../images/jakob.jpg" class="img-fluid d-block " alt="route"/></a>
-                                </div>
-                                <div class="col-md-5 ">
-                                        <h1 class="text-left"> TITRE1 </h1>
-                                        <p class="text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim i  est laborum.</p>
-                                </div>
-
-                        </div>
-
-                        <a class="carousel-control-prev" href="#carouselmenu3" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselmenu3" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
-                        <p class="text-center text-uppercase mt-4 mb-4">Lorem ipsum dolor sit amet</p>
-                  </div>
-                </div>
 
             </section>
+
       <hr class="rupture">
